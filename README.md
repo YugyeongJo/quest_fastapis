@@ -26,7 +26,7 @@ d) clear()
 4. Python에서 파일을 열기 위해 사용되는 내장 함수는 무엇인가요? (배점 20점, 정답 : a)
 a) open()
 b) read()
-c) write()
+c) write()ad
 d) close()
 5. Python에서 함수를 정의할 때 사용하는 키워드는 무엇인가요? (배점 20점, 정답 : c)
 a) function
