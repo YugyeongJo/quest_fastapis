@@ -11,7 +11,7 @@ from route.user import router
 from fastapi import Request
 from fastapi.templating import Jinja2Templates
 
-app.include_router(router,prefix="/users")
+app.include_router(router)
 
 templates = Jinja2Templates(directory = "templates/")
 
