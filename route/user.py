@@ -6,10 +6,13 @@ from fastapi import Request
 router = APIRouter()
 templates = Jinja2Templates(directory = "templates/")
 
-# problems.html
+# problems.html 연결
+@router.get("/problems")
+async def problems(request:Request):
+    return templates.TemplateResponse(name="/users/problems.html",context={'request':request})
 
-# list.html
+# list.html 연결
 
-# reads.html
+# reads.html 연결
 
-# main.html
+# main.html 연결
