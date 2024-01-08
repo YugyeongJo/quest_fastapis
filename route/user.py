@@ -12,12 +12,12 @@ async def problems(request:Request):
     return templates.TemplateResponse(name="problems.html",context={'request':request})
 
 # list.html 연결
-@router.post("/lists")
+@router.get("/lists")
 async def lists(request:Request):
     return templates.TemplateResponse(name="lists.html",context={'request':request})
 
 # reads.html 연결
-@router.post("/reads")
+@router.get("/reads")
 async def reads(request:Request):
     return templates.TemplateResponse(name="reads.html",context={'request':request})
 
